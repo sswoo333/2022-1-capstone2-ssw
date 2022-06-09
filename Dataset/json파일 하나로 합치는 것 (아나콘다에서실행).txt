@@ -1,0 +1,11 @@
+python labelme2coco.py train --output train.json
+
+python labelme2coco.py validation --output validation.json
+
+python labelme2coco.py test --output test.json
+
+
+
+
+
+
