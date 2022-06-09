@@ -16,7 +16,7 @@ Detectron2를 활용하여 Mask R-CNN 모델을 학습시켜 자동차 번호판
 4. Check loss function graph
 5. Early stopping if overfitting occurs
 6. Check Mean Average Precision 
-7. Test with data(test)
+7. Test 
 
 # Result 
 
