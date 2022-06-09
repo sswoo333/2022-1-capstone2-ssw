@@ -6,8 +6,17 @@
 # Student
 2015104181 서승우
 
-# 요약
-Detectron2를 활용하여 Mask R-CNN 모델을 학습시켜 자동차 번호판을 검출한 내용입니다. 
+# Summary
+Detectron2를 활용하여 Mask R-CNN 모델을 학습시켜 자동차 번호판을 검출
+
+# Process
+1. Find Dataset(car license plate)
+2. Create json file 
+3. Train using google_colab
+4. Check loss function graph
+5. Early stopping if overfitting occurs
+6. Check Mean Average Precision 
+7. Test with data(test)
 
 # Result 
 
