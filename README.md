@@ -8,4 +8,5 @@
 
 
 # image
-![2](https://user-images.githubusercontent.com/101958056/161581542-d6dd5f06-796c-45aa-879c-6a1618630388.jpg)
+![sample image_1](https://user-images.githubusercontent.com/101958056/172886846-42c09c77-eee7-4ecd-9a6d-d201e1559d3b.png)
+
