@@ -6,7 +6,7 @@
 # Student
 2015104181 서승우
 
-# Summary
+# 목표
 Detectron2를 활용하여 Mask R-CNN 모델 학습을 통해 자동차 번호판을 검출
 
 # Process
