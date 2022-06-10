@@ -20,7 +20,9 @@ Detectron2를 활용하여 Mask R-CNN 모델 학습을 통해 자동차 번호�
 
 # 학습 
 cfg.SOLVER.IMS_PER_BATCH = 2
+
 cfg.SOLVER.BASE_LR = 0.00025    
+
 cfg.SOLVER.MAX_ITER = 5000 
 
 
