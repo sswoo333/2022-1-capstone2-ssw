@@ -18,7 +18,11 @@ Detectron2를 활용하여 Mask R-CNN 모델 학습을 통해 자동차 번호�
 6. Check Mean Average Precision 
 7. Test 
 
+# Dataset
+![Dataset_image](https://user-images.githubusercontent.com/101958056/173061521-c9a2cb0e-6e21-4657-87ba-45010a616763.png)
 
+# Labeme(for json_file)
+![Labelme_image](https://user-images.githubusercontent.com/101958056/173061681-629ed25b-1000-4039-ad58-bf3b2f7ed2bc.png)
 
 # Car_license_plate_sample_image_1
 ![sample image_1](https://user-images.githubusercontent.com/101958056/172886846-42c09c77-eee7-4ecd-9a6d-d201e1559d3b.png)
