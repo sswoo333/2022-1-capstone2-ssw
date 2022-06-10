@@ -18,6 +18,14 @@ Detectron2를 활용하여 Mask R-CNN 모델 학습을 통해 자동차 번호�
 6. Check Mean Average Precision 
 7. Test 
 
+# 학습 
+cfg.SOLVER.IMS_PER_BATCH = 2
+cfg.SOLVER.BASE_LR = 0.00025    
+cfg.SOLVER.MAX_ITER = 5000 
+
+
+
+
 # Dataset
 ![Dataset_image](https://user-images.githubusercontent.com/101958056/173061521-c9a2cb0e-6e21-4657-87ba-45010a616763.png)
 
@@ -36,12 +44,18 @@ Detectron2를 활용하여 Mask R-CNN 모델 학습을 통해 자동차 번호�
 # Validation loss fucntion 5k
 ![validation loss fucntion 5k ](https://user-images.githubusercontent.com/101958056/172887632-8fbca997-c9d1-4670-9366-d7f49542f05e.png)
 
-# mAP 5k
+# Mean Average Precision 5k
 ![mAP](https://user-images.githubusercontent.com/101958056/172887639-98c809d7-115d-4320-951d-3c9d45a893e4.png)
 
 # Test picture 5k
 ![5k test picture](https://user-images.githubusercontent.com/101958056/172887636-078382bd-ea81-46a1-9e74-f35956f4bb77.png)
 
-
-
+# Tool
+Labelme 
+Google Colab
+pyyaml
+pytorch
+cuda
+torchvision
+detectron2
 
