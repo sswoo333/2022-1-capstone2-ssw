@@ -18,14 +18,6 @@ Detectron2를 활용하여 Mask R-CNN 모델 학습을 통해 자동차 번호�
 6. Check Mean Average Precision 
 7. Test 
 
-# 학습 
-
-cfg.SOLVER.IMS_PER_BATCH = 2
-
-cfg.SOLVER.BASE_LR = 0.00025    
-
-cfg.SOLVER.MAX_ITER = 5000 
-
 
 # Dataset
 ![Dataset_image](https://user-images.githubusercontent.com/101958056/173061521-c9a2cb0e-6e21-4657-87ba-45010a616763.png)
@@ -38,6 +30,15 @@ cfg.SOLVER.MAX_ITER = 5000
 
 # Car_license_plate_sample_image_2
 ![sample image_2](https://user-images.githubusercontent.com/101958056/172887558-14ffa91c-cf5a-40de-a7df-abffa9356089.png)
+
+
+# 학습 
+
+cfg.SOLVER.IMS_PER_BATCH = 2
+
+cfg.SOLVER.BASE_LR = 0.00025    
+
+cfg.SOLVER.MAX_ITER = 5000 
 
 # Train loss function (5k)
 ![train loss function 5k](https://user-images.githubusercontent.com/101958056/172887623-365aa1fa-dd77-4281-bc16-24e740a5a4e7.png)
